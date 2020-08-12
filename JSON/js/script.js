@@ -72,7 +72,7 @@ $(document).ready(function(){
             //데이터의 형태가 숫자타입일 경우
             //return b.id - a.id; 
 
-            //데이터의 형태 문자타입일 경우
+            //데이터의 형태 문자타입일 경우 (아스키 코드 값에 의한 문자를 비교)
             if(a.name < b.name){
                 return -1;  //자리를 바꾸지 않는다
             }
