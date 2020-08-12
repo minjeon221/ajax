@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ajax_test02(php)</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <form action="member.php" method="POST" name="member" id="member">
+        <fieldset>
+            <legend>회원가입(register)</legend>
+            <div>
+                <label for="user_name">이름</label>
+                <input type="text" name="user_name" id="user_name">
+            </div>
+
+            <div>
+                <label for="user_email">email</label>
+                <input type="text" name="user_email" id="user_email">
+            </div>
+            <div>
+                <input type="submit" value="회원가입">
+            </div>
+        </fieldset>
+
+
+    </form>
+
+    <h3 id="user">결과값</h3>
+</body>
+</html>
