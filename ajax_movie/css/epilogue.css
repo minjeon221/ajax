@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+
+.epilogue .wrap{width: 960px;height:auto; text-align:center; padding:40px 0;margin: 0 auto;}
+.epilogue .wrap ul{margin-bottom: 20px;}
+.epilogue .wrap ul li{}
+.epilogue .wrap ul li:after{content: "";display: block;clear: both;}
+.epilogue .wrap ul li .img_box{float: left;width: 364px;height: 240px;background-size: cover;background-position: 50% 50%;margin-right: 20px;}
+.epilogue .wrap ul li .img_box.right_img{float: right;}
+.epilogue .wrap ul li .txt_box{float: left;font-size: 17px;color: #1f232f;display: table;height: 240px;width: 556px;}
+.epilogue .wrap ul li .txt_box .center{display: table-cell;vertical-align: middle;}
+
+.epilogue .wrap .image{height: 360px;width: 630px;background-image: url(../img/ep_bottom.png);background-size: cover;background-position: 50% 50%;margin: 0 auto;}
+
+

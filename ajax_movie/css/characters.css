@@ -1,0 +1,18 @@
+/*characters.css*/
+@charset "utf-8";
+
+.characters{width:100%; height:auto;}
+.characters .frame{}
+.characters .frame .ch_box{width:100%; height:auto; border-bottom: 1px solid #999; padding:10px 0;}
+.characters .frame .ch_box:after{content:""; display:block; clear:both;}
+
+.characters .frame .ch_box .ch_img{float:left; width:266px; height:260px;}
+.characters .frame .ch_box .ch_img .img_space{width:100%; height:100%; background-size:cover; background-position:50% 50%; background-color:#aaa;}
+
+.characters .frame .ch_box .ch_info{float:left; width:calc(100% - 266px); height:260px; padding:0 20px;}
+
+.characters .frame .ch_box .ch_info h3{font-size: 19px; color:#1f232f; padding:10px 0; line-height:1;}
+
+.characters .frame .ch_box .ch_info .ch_ment{width:100%; height:calc(100% - 39px); /*background:#ffff99;*/ position:relative;}
+
+.characters .frame .ch_box .ch_info .ch_ment p{width:75%; font-size: 24px; color:#191919; word-break:keep-all; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);}

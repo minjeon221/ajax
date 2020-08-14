@@ -1,0 +1,14 @@
+/*snapshots.css*/
+@charset "utf-8";
+
+.snapshots{width:100%; height:auto;}
+.snapshots .frame{width:960px; height:auto; text-align:center; padding: 20px 10px 40px;}
+.snapshots .frame .origin{width:100%; height:auto; font-size:0;}
+.snapshots .frame .origin .sh_box{width:calc(50% - 20px); height:300px; margin:0 10px 20px; background:#ffaaff; display:inline-block; background-size:cover; background-position:50% 50%;}
+
+.snapshots .frame .origin .sh_box .dark{width:100%; height:100%; background:rgba(0,0,0,0.5); position: relative; opacity:0;}
+.snapshots .frame .origin .sh_box .dark h4{font-size:20px; color:#fff; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);}
+
+.snapshots .frame .origin .sh_box:hover .dark{opacity:1; transition:opacity 0.5s;}
+
+.snapshots .frame button{margin:20px 0; display:inline-block; width:160px; line-height:36px; border:none; background:#1f232f; color:#fff; border-radius:6px; cursor:pointer; font-size:17px;}
