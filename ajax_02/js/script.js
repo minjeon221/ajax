@@ -4,7 +4,7 @@ $(document).ready(function(){
         console.log($confirm);
         $.ajax({
             url: "member.php", //데이터를 전송 및 요청할 url주소
-            type: "post", //데이터 전송방식(get 또는 post)
+            type: "POST", //데이터 전송방식(get 또는 post)
             data: $confirm, //전송할 데이터
             success: function(result){ //ajax로 통신이 완료되고, 전송이 정상적으로 진행되었을 때 함수문을 실행
                 $("#user").html(result);
